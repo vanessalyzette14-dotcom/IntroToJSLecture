@@ -1,0 +1,12 @@
+{
+  "name": "308.1",
+  "version": "1.0.0",
+  "description": "-   Highlevel - no access to CPU process (read/write to CPU)\r -   Weakly typed - do not need to declare datatypes and can be fluid\r -   Interpreted language by the browser NOT compiled",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
