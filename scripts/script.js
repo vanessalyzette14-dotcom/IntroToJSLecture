@@ -135,3 +135,51 @@ console.log(num1 > num2 || num1 == 14);
 console.log(!(num1 > num2));
 
 console.log((13 > 12 && 14 < 22 && 16 > 3) || 6 > 7);
+
+// String Concatenation - adding strings together
+console.log('String Concatenation ------------------------')
+
+let newStr = name + ' is my name'
+console.log(newStr);
+
+console.log("The number is " + 5);
+
+num1 = '1';
+num2 = 13;
+num3 = num1 + num2; // This will typecast values into a string
+console.log(typeof num3, num3)
+
+// String Access - accessing individual letters of a string with []
+console.log('String Access --------------------------------')
+console.log(hello[0]);
+
+hello[0] = "L" // Does not work
+
+const frost =
+	`Nature’s first green is gold, 
+Her hardest hue to hold. 
+Her early leaf’s a flower; 
+But only so an hour. 
+Then leaf subsides to leaf. 
+So Eden sank to grief, 
+So dawn goes down to day. 
+Nothing gold can stay.`;
+
+console.log(frost);
+
+console.log(`Hello my name is ${name}, and I am ${age} years old.`)
+console.log('Hello my name is ' + name + ', and I am ' + age + ' years old.')
+
+
+const a = 5;
+const b = 10;
+
+console.log("'a' is assigned a value of \"" + a + ",\" and 'b' is assigned a value of \"" + b + ".\"\n" +
+"Therefore, 'a' plus 'b' is equal to " + (a + b) + ".");
+
+
+const a = 5;
+const b = 10;
+
+console.log(`'a' is assigned a value of "${a}," and 'b' is assigned a value of "${b}."
+Therefore, 'a' plus 'b' is equal to ${a + b}.`);
